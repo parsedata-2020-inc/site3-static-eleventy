@@ -13,7 +13,7 @@ const submitForm = (formData) => {
 }
 
 const userAction = async (jsonData) => {
-  const response = await fetch('https://76dff6dc6fd3919dda3db890a710b183.m.pipedream.net', {
+  const response = await fetch('https://cm2npa.apps.connect.claris.com/api/webhook/v1/webhook/catch', {
     method: 'POST',
     body: JSON.stringify(jsonData), // string or object
     headers: {
