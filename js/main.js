@@ -36,11 +36,16 @@ window.onload = () => {
   const email = document.querySelector('#email');
   const country = document.querySelector('#country');
   const form = document.querySelector('form');
+  const apiHeader= "webForm";
+
+    
 
   first.oninput = e => results['first'] = first.value;
   last.oninput = e => results['last'] = last.value;
   email.oninput = e => results['email'] = email.value;
   country.oninput = e => results['country'] = country.value;
+  results['apiHeader']=apiHeader;
+  
 
   form.onsubmit = e => {
     e.preventDefault();
