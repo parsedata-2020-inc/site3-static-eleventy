@@ -13,7 +13,7 @@ const submitForm = (formData) => {
 }
 
 const userAction = async (jsonData) => {
-  const response = await fetch('https://o6qtr3.apps.connect.claris.com/api/webhook/v1/webformhook/catch', {
+  const response = await fetch('https://fe99fh.apps.connect.claris.com/api/webhook/v1/pledgxwebsiteform/catch', {
     method: 'POST',
     body: JSON.stringify(jsonData), // string or object
     headers: {
